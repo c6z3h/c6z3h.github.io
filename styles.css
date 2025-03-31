@@ -1,9 +1,14 @@
 body {
-  background-image: linear-gradient('#343d46', '#c0c5ce') 
+  background-image: linear-gradient(to right, #343d46, #c0c5ce);
+  width: 100vw;
+  height: 100vh;
+  justify-items: center;
+  align-content: center;
 }
 
 h1, a {
   background-color: white;
   border-radius: 8px;
   padding: 10px;
+  border: 2px solid firebrick;
 }
