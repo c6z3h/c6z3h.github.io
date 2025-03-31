@@ -12,3 +12,8 @@ h1, a {
   padding: 10px;
   border: 2px solid firebrick;
 }
+
+img {
+  width: '100%';
+  aspect-ratio: 1/1;
+}
