@@ -1,0 +1,9 @@
+body {
+  background-image: linear-gradient('#343d46', '#c0c5ce') 
+}
+
+h1, a {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
