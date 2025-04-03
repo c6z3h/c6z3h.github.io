@@ -1,5 +1,4 @@
 body {
-  background: var(--bkg-color);
   width: 100vw;
   height: 100vh;
   justify-items: center;
@@ -7,17 +6,19 @@ body {
   padding: 0;
   border: 0;
   outline: 0;
-  --text-color: #222;
-  --bkg-color: linear-gradient(to right, #eee, #fff);
+  --text-color: #000;
+  --bkg-color: #fff;
+  /* linear-gradient(to right, #eee, #fff); */
 }
 
 body.dark-theme {
-  --text-color: #eee;
-  --bkg-color: linear-gradient(to right, #121212 #343d46);
+  --text-color: #fff;
+  --bkg-color: #000;
+  /* --bkg-color: linear-gradient(to right, #000000 #343d46); */
 }
-body.light-theme {
-  --text-color: #222;
-  --bkg-color: linear-gradient(to right, #eee, #fff);
+
+body {
+  background: var(--bkg-color);
 }
 
 h1, a {
@@ -25,7 +26,6 @@ h1, a {
   color: var(--text-color);
   /* border-radius: 8px;
   padding: 10px; */
-  border: 2px solid firebrick;
 }
 
 img {
