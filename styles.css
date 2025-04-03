@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to right, #343d46, #c0c5ce);
+  background: var(--bkg-color);
   width: 100vw;
   height: 100vh;
   justify-items: center;
@@ -7,12 +7,24 @@ body {
   padding: 0;
   border: 0;
   outline: 0;
+  --text-color: #222;
+  --bkg-color: linear-gradient(to right, #eee, #fff);
+}
+
+body.dark-theme {
+  --text-color: #eee;
+  --bkg-color: linear-gradient(to right, #121212 #343d46);
+}
+body.light-theme {
+  --text-color: #222;
+  --bkg-color: linear-gradient(to right, #eee, #fff);
 }
 
 h1, a {
-  background-color: white;
-  border-radius: 8px;
-  padding: 10px;
+  /* background-color: white; */
+  color: var(--text-color);
+  /* border-radius: 8px;
+  padding: 10px; */
   border: 2px solid firebrick;
 }
 
