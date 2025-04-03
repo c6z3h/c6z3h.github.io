@@ -1,0 +1,20 @@
+{
+  "name": "c6z3h.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "open http://localhost:8080 && node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c6z3h/c6z3h.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c6z3h/c6z3h.github.io/issues"
+  },
+  "homepage": "https://github.com/c6z3h/c6z3h.github.io#readme"
+}
