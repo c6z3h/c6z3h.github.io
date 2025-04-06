@@ -15,7 +15,7 @@ body.dark-theme {
   --bkg-color: #000;
 }
 
-h1, a {
+h1, p, ol {
   color: var(--text-color);
 }
 
@@ -36,4 +36,5 @@ img {
 .mainPage {
   justify-items: center;
   align-content: center;
+  padding: 1rem;
 }
